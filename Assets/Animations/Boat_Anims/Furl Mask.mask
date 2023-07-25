@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Furl Mask
+  m_Mask: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_Block01_joint01
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_Block01_joint01/CTS_Boat_REF_030223:Boat_Block01_joint02
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_Block02_joint01
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_Block02_joint01/CTS_Boat_REF_030223:Boat_Block02_joint02
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_Block04_joint1
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_Block04_joint1/CTS_Boat_REF_030223:Block04_joint2
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_Boom_joint1
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_Boom_joint1/CTS_Boat_REF_030223:Boat_Block03_joint1
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_Boom_joint1/CTS_Boat_REF_030223:Boat_Block03_joint1/CTS_Boat_REF_030223:Boat_Block03_joint2
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_joint2
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_joint2/CTS_Boat_REF_030223:Boat_joint3
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_WenchA_joint1
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_WenchA_joint1/CTS_Boat_REF_030223:Boat_WenchA_joint2
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_WenchB_joint1
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:Boat_joint1/CTS_Boat_REF_030223:Boat_WenchB_joint1/CTS_Boat_REF_030223:Boat_WenchB_joint2
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh
+    m_Weight: 1
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_BoomLinesLow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_BoomLow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_BoomLow/CTS_Boat_REF_030223:block_boom
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_BoomLow/CTS_Boat_REF_030223:boom
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_BoomPulleyALow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_BoomPulleyBLow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_DeckLow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_GuardlinesLow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_HullLow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_MastLow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_TillerLow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_WinchAPartALow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_WinchAPartALow/CTS_Boat_REF_030223:CTS_Boat_WinchAPartBLow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_WinchBPartALow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:CTS_Boat_WinchBPartALow/CTS_Boat_REF_030223:CTS_Boat_WinchBPartBLow
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:Sail_Mesh
+    m_Weight: 1
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:Sail_Mesh/CTS_Boat_REF_030223:sail_BASE
+    m_Weight: 1
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:Sail_Mesh/CTS_Boat_REF_030223:sail_furl_03
+    m_Weight: 1
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:Sail_Mesh/CTS_Boat_REF_030223:sail_port_07
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:Sail_Mesh/CTS_Boat_REF_030223:sail_port_08
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:Sail_Mesh/CTS_Boat_REF_030223:sail_port_09
+    m_Weight: 0
+  - m_Path: CTS_Boat_REF_030223:CTS_Boat_Mesh/CTS_Boat_REF_030223:Sail_Mesh/CTS_Boat_REF_030223:sail_starboard_11
+    m_Weight: 0

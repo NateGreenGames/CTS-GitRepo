@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7964086903417462535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1798636168619488489}
+  m_Layer: 0
+  m_Name: FlareSpawnPt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1798636168619488489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7964086903417462535}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1116, z: 0.2095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1186570104962539550}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8506643750899903390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1186570104962539550}
+  - component: {fileID: 7980340057439677465}
+  - component: {fileID: 38152518301840403}
+  - component: {fileID: 4923889728039833238}
+  m_Layer: 0
+  m_Name: Flaregun (tool)
+  m_TagString: Flare Gun
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1186570104962539550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8506643750899903390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3946586500079787861}
+  - {fileID: 1798636168619488489}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &7980340057439677465
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8506643750899903390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.0827297
+  m_Height: 0.29598284
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.061840057, z: 0.0036189556}
+--- !u!114 &38152518301840403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8506643750899903390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 134ee398886468c46b9b1800202fe55b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 11400000, guid: caf16740ccb9c3240a543b61b4fe10dc, type: 2}
+  itemSwapping: {fileID: 0}
+  pToolUnlocked:
+    haveSavedFile: 0
+    newGame: 0
+    curPlayerHealth: 0
+    curBoatHealth: 0
+    curFlares: 0
+    flareGunLoaded: 0
+    isFlareGunUnlocked: 0
+    isFlashlightUnlocked: 0
+    isAstrolabeUnlocked: 0
+    respawnLocation: {x: 0, y: 0, z: 0}
+    respawnRotation: {x: 0, y: 0, z: 0, w: 0}
+    checkpoint_Letter: 0
+    checkPoint_Boat: 0
+    checkPoint_MainCabin: 0
+    checkPoint_Sailing: 0
+    checkPoint_Island: 0
+    gryffnFirstVisit: 0
+    calliopeFirstVisit: 0
+--- !u!114 &4923889728039833238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8506643750899903390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17d21c43a0434348a714b082e9f10dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reloadTime: 1.5
+  flareSpawnPos: {fileID: 1798636168619488489}
+  flarePrefab: {fileID: 8423612705540717608, guid: 44a604d14584f424fb9ae6fb2c479b8a, type: 3}
+  itemSwapping: {fileID: 0}
+  cam: {fileID: 0}
+  projectileSpeed: 30
+  debugFlare: 0
+  flaresLeft: 0
+  enableRumble: 0
+  playerInventory: {fileID: 0}
+  itemData: {fileID: 11400000, guid: caf16740ccb9c3240a543b61b4fe10dc, type: 2}
+  isReloading: 0
+--- !u!1001 &7801403378712766267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1186570104962539550}
+    m_Modifications:
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0081
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0148
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570000122255098255, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_Name
+      value: CTS_P_FlareGun_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570000122255098255, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+--- !u!4 &3946586500079787861 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6521547100867491950, guid: f491f4a63ff007b4e9a4198440c5c2b4, type: 3}
+  m_PrefabInstance: {fileID: 7801403378712766267}
+  m_PrefabAsset: {fileID: 0}

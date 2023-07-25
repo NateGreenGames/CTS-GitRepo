@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2480826959153401698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7319200998932961503}
+  - component: {fileID: 8543933321878766810}
+  m_Layer: 0
+  m_Name: ToolContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7319200998932961503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480826959153401698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3541, y: -0.0804, z: 0.0713}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8543933321878766810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480826959153401698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32635df72ef2ac044ac352484b96b910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pToolUnlocked:
+    isLighterUnlocked: 0
+    isFlareGunUnlocked: 0
+    isShovelUnlocked: 0
+    isFlashlightUnlocked: 0
+    isAstrolabeUnlocked: 0
+  toolContainer: {fileID: 7319200998932961503}
+  rightHandPt: {fileID: 0}
+  sRep: {fileID: 11400000, guid: 1c076500cd3505b49896c7885a7954fc, type: 2}
+  toolsUnlocked: 0
+  selectedTool: 0
+  previousSelectedTool: 0
+  i: 0
+  flammable: {fileID: 0}

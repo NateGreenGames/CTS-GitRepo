@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbb3d238d6bedd4780b5441c69ab936, type: 3}
+  m_Name: 6DadCampsite
+  m_EditorClassIdentifier: 
+  questId: 6
+  questTitle: Goin' Campin'
+  questDescription: Find your Dad's campsite.
+  waypointLocation: {x: 0, y: 0, z: 0}
+  currentProg: 0
+  maxProg: 1
+  functionMessage: EnablePage

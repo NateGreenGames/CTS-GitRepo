@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c509dbaa7b6f416409e3195321a2187e, type: 3}
+  m_Name: CTS_WorldSceneLayerPalette
+  m_EditorClassIdentifier: 
+  PaletteLayers:
+  - {fileID: 8574412962073106934, guid: 11002109422069143ba6bb8d5a227acb, type: 2}
+  - {fileID: 8574412962073106934, guid: cc893424161ae2643a887ed06456e620, type: 2}
+  - {fileID: 8574412962073106934, guid: d6ddabd3072304e4e81013d34f4100ff, type: 2}
+  - {fileID: 8574412962073106934, guid: fe6ffb4e59bc7464ba6478016b2208cc, type: 2}
+  - {fileID: 8574412962073106934, guid: fb9447f6bfe8bd64daed0d8bde584322, type: 2}
+  - {fileID: 8574412962073106934, guid: ed980bd902a352540a7086f1f3f2c83e, type: 2}
+  - {fileID: 8574412962073106934, guid: cb6e224c6978d534d84e1c50c6bc210f, type: 2}
+  - {fileID: 8574412962073106934, guid: d5dbf4b89ca487b4e8d49e273609dc66, type: 2}

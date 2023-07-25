@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a717ef89da6ec2740a99140ac0e0751b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mixer: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - buttonClickClip: {instanceID: 0}
+  - jumpClip: {instanceID: 0}
+  - swimClip: {instanceID: 0}
+  - flareFireClip: {fileID: 8300000, guid: 05759c7e658162c48bbcfee7c570bc14, type: 3}
+  - flareReloadClip: {instanceID: 0}
+  - boatSpeedClip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

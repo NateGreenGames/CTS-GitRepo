@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbb3d238d6bedd4780b5441c69ab936, type: 3}
+  m_Name: 9JarBackToCalli
+  m_EditorClassIdentifier: 
+  questId: 9
+  questTitle: A Jarring Discovery
+  questDescription: Bring the jar back to Calliope.
+  waypointLocation: {x: 1463.88, y: 4.078, z: -970.08997}
+  currentProg: 0
+  maxProg: 1
+  functionMessage: none
